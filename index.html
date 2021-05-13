@@ -143,7 +143,18 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/vanilatilt.js"></script>
     <script src="./bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".service_cards"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".service_cards"));
+    </script>
 
 </body>
 

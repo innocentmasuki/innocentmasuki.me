@@ -76,6 +76,12 @@ footer {
 .service_cards {
     border-radius: 20px;
     transition: 0.3s;
+    transform-style: preserve-3d;
+    transform: perspective(5000px);
+}
+
+.card-body {
+    transform: translateZ(20px)
 }
 
 .service_cards:hover {
