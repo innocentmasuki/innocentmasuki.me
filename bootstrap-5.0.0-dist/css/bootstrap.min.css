@@ -3207,7 +3207,7 @@ fieldset:disabled .btn {
 .btn-masuki:hover {
     transition: 0.7s;
     color: white;
-    box-shadow: 0 30px 20px #ffa60069;
+    box-shadow: 0 50px 20px #ffa60069;
 }
 
 .btn-check:focus+.btn-light,
