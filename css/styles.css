@@ -12,3 +12,15 @@ footer {
     height: 400px;
     width: 100%;
 }
+
+.maskedText {
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero {
+    padding-left: 50%;
+    padding-top: 10%;
+    font-size: 5vw;
+}

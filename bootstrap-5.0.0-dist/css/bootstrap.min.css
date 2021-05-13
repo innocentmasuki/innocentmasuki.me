@@ -3196,7 +3196,25 @@ fieldset:disabled .btn {
     border-color: #f9fafb
 }
 
-.btn-check:focus+.btn-light,
+.btn-masuki {
+    margin-left: 50%;
+    color: white;
+    background-color: #ffa500;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+    transition: 0.7s;
+}
+
+.btn-masuki:hover {
+    transition: 0.7s;
+    color: white;
+    box-shadow: 0 20px 20px #ffa60069;
+}
+
+rgba(255,
+166,
+0,
+0.24) .btn-check:focus+.btn-light,
 .btn-light:focus {
     color: #000;
     background-color: #f9fafb;
