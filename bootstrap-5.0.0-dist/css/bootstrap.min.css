@@ -4110,6 +4110,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link {
+    justify-content: spa;
     display: block;
     padding: .5rem 1rem;
     color: #0d6efd;
@@ -4210,9 +4211,12 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-    position: relative;
+    height: auto;
+    width: 100%;
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
+    top: 0;
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
@@ -4227,28 +4231,44 @@ fieldset:disabled .btn {
 .navbar>.container-xl,
 .navbar>.container-xxl {
     display: flex;
+    position: relative;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between
 }
 
 .navbar-brand {
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    margin-left: 3%;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
     text-decoration: none;
     white-space: nowrap
 }
 
 .navbar-nav {
     display: flex;
+    background-color: transparent;
     flex-direction: column;
     padding-left: 0;
-    margin-bottom: 0;
-    background-color: red;
-    justify-content: space-around;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Poppins', sans-serif;
     list-style: none
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 80%;
+    transform: translatex(-80%);
+}
+
+.navbar-nav.navbar-right {
+    position: absolute;
+    right: 5%;
+    transform: translatex(1%);
 }
 
 .navbar-nav .nav-link {
@@ -4496,6 +4516,11 @@ fieldset:disabled .btn {
     color: rgba(0, 0, 0, .7)
 }
 
+.navbar-light .navbar-nav .nav-link .sc-media:focus,
+.navbar-light .navbar-nav .nav-link .sc-media:hover {
+    color: rgba(0, 0, 0, .7)
+}
+
 .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, .3)
 }
@@ -4525,7 +4550,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-brand {
-    color: #fff
+    color: #fff;
+    text-shadow: 0 0 3px rgb(201, 201, 201);
 }
 
 .navbar-dark .navbar-brand:focus,
@@ -4534,12 +4560,13 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, .55)
+    text-shadow: 0 0 3px rgb(201, 201, 201);
+    color: white
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, .75)
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
