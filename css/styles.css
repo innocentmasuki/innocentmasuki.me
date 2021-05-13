@@ -15,6 +15,7 @@ body {
     background-image: url(../assets/images/masukibg.png);
     background-size: cover;
     background-repeat: repeat-y;
+    overflow-x: hidden;
 }
 
 .heroimage {
@@ -54,6 +55,16 @@ body {
     width: 100%;
 }
 
+.headerSm {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.headerBg {
+    font-size: 6vw;
+    font-weight: bolder;
+}
+
 footer {
     height: 400px;
     width: 100%;
@@ -68,13 +79,18 @@ footer {
         width: 100%;
     }
     /* come back here to fix */
-    /* .service_cards {
-        margin: 20px 0 20px 0;
-    } */
+    .service_cards {
+        margin: 20px;
+    }
+    .headerSm {
+        font-size: 5vw;
+    }
+    .headerBg {
+        font-size: 12vw;
+    }
 }
 
 .service_cards {
-    border-radius: 20px;
     transition: 0.3s;
     transform-style: preserve-3d;
     transform: perspective(5000px);
