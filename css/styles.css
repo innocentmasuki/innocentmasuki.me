@@ -2,11 +2,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    height: auto;
+    width: 100%;
+}
+
+body {
+    background-image: url(../assets/images/masukibg.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
 .heroimage {
     height: 100vh;
     width: 100%;
-    background-image: url("../assets/images/background.png");
-    background-size: cover;
+    /* background-image: url("../assets/images/background.png");
+    background-size: cover; */
 }
 
 .masukiText {
@@ -31,19 +46,25 @@
     position: absolute;
     text-align: center;
     background-color: red;
-    bottom: calc(100vh - 85%);
+    bottom: calc(100vh - 80%);
+}
+
+.pagechild {
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
 }
 
 @media (max-width:576px) {
     .masuki_section {
         font-size: 15vw;
     }
-    /* [hireme] {
-        margin-left: -50%;
-    } */
-}
-
-footer {
-    height: 400px;
-    width: 100%;
+    .pagechild {
+        height: auto;
+        width: 100%;
+    }
 }

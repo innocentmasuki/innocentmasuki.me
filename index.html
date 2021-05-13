@@ -28,14 +28,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-center me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">services</a>
+                        <a class="nav-link" href="#services">services</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">works</a>
+                        <a class="nav-link" href="#works">works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav navbar-right me-auto mb-2 mb-lg-0">
@@ -59,7 +59,7 @@
     <main>
         <div class="container-fluid heroimage">
             <div class="container hero">
-                <div class="row" style="padding: 0 5% 0 5%;">
+                <div class="row" style="padding: 0 10% 0 10%;">
                     <div class="col-sm masuki_section">
                         <div>
                             <span>Hy! 👋 I'm</span>
@@ -74,10 +74,18 @@
 
             </div>
             <div class="container-md" hireme>
-                <button type="button" class="btn btn-masuki" style="position: absolute;">Hire me</button>
+                <button type="button" class="btn btn-masuki" style="position: absolute;">Hire Me</button>
             </div>
 
+        </div>
 
+        <div style="scroll-behavior: smooth;">
+            <div class="pagechild" id="services"> services</div>
+            <div class="pagechild" id="works">works</div>
+            <div class="pagechild" id="about">about</div>
+            <div class="pagechild" id="contact">contact</div>
+
+        </div>
 
 
 
@@ -90,6 +98,7 @@
 
     <script src="./js/main.js"></script>
     <script src="./bootstrap-5.0.0-dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
