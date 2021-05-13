@@ -4680,7 +4680,6 @@ fieldset:disabled .btn {
     padding: .5rem 1rem;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, .03);
-    border-bottom: 1px solid rgba(0, 0, 0, .125)
 }
 
 .card-header:first-child {
@@ -4690,7 +4689,6 @@ fieldset:disabled .btn {
 .card-footer {
     padding: .5rem 1rem;
     background-color: rgba(0, 0, 0, .03);
-    border-top: 1px solid rgba(0, 0, 0, .125)
 }
 
 .card-footer:last-child {
@@ -4725,11 +4723,9 @@ fieldset:disabled .btn {
     width: 100%
 }
 
-.card-img,
-.card-img-top {
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px)
-}
+
+/* .card-img,
+.card-img-top {} */
 
 .card-img,
 .card-img-bottom {

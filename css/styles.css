@@ -67,4 +67,18 @@ footer {
         height: auto;
         width: 100%;
     }
+    /* come back here to fix */
+    /* .service_cards {
+        margin: 20px 0 20px 0;
+    } */
+}
+
+.service_cards {
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.service_cards:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 30px #ffa60071;
 }
