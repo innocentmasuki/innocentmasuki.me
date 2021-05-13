@@ -15,6 +15,6 @@
 - 😄 Pronouns: He/Him
 
 
-[<img src="./android.png" width="auto" height="50">](https://play.google.com/store/apps/dev?id=7270525030482178332)
+[<img src="./assets/android.png" width="auto" height="50">](https://play.google.com/store/apps/dev?id=7270525030482178332)
 
 
