@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .heroimage {
     height: 100vh;
     width: 100%;
@@ -8,19 +12,21 @@
     /* background-image: linear-gradient( 109.6deg, rgba(62, 161, 219, 1) 11.2%, rgba(93, 52, 236, 1) 100.2%); */
 }
 
-footer {
-    height: 400px;
-    width: 100%;
-}
-
 .maskedText {
-    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    /* background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
+    background-image: linear-gradient( 109.6deg, rgba(255, 115, 68, 1) 11.2%, rgba(244, 255, 32, 1) 100.6%);
     background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
     color: transparent;
 }
 
 .hero {
-    padding-left: 50%;
-    padding-top: 10%;
-    font-size: 5vw;
+    position: absolute;
+    margin-top: 15%;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
 }

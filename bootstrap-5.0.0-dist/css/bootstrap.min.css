@@ -3197,7 +3197,6 @@ fieldset:disabled .btn {
 }
 
 .btn-masuki {
-    margin-left: 50%;
     color: white;
     background-color: #ffa500;
     border-radius: 50px;
@@ -3208,13 +3207,10 @@ fieldset:disabled .btn {
 .btn-masuki:hover {
     transition: 0.7s;
     color: white;
-    box-shadow: 0 20px 20px #ffa60069;
+    box-shadow: 0 30px 20px #ffa60069;
 }
 
-rgba(255,
-166,
-0,
-0.24) .btn-check:focus+.btn-light,
+.btn-check:focus+.btn-light,
 .btn-light:focus {
     color: #000;
     background-color: #f9fafb;
@@ -4235,6 +4231,7 @@ rgba(255,
     display: flex;
     flex-wrap: wrap;
     top: 0;
+    z-index: 10;
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
@@ -4273,7 +4270,6 @@ rgba(255,
     padding-left: 0;
     padding-bottom: 1%;
     padding-top: 1%;
-    font-family: 'Poppins', sans-serif;
     list-style: none
 }
 
@@ -7981,6 +7977,11 @@ rgba(255,
 
 .bg-info {
     background-color: #0dcaf0!important
+}
+
+.bg-glass {
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(13px);
 }
 
 .bg-warning {
