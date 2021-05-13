@@ -4246,6 +4246,8 @@ fieldset:disabled .btn {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
+    background-color: red;
+    justify-content: space-around;
     list-style: none
 }
 
