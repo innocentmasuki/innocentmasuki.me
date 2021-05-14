@@ -101,6 +101,9 @@ body {
     #contact_card {
         margin: 20px;
     }
+    [masuki-box] {
+        border: 2px solid #ffa600;
+    }
 }
 
 [masuki-box] {
