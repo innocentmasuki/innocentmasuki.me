@@ -1,4 +1,5 @@
 var navbar = document.getElementById("navbar");
+// var coffee = document.getElementById("coffee");
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() { scrollFunction() };
 
@@ -8,9 +9,11 @@ function scrollFunction() {
         if (prevScrollpos > currentScrollPos) {
             navbar.style.top = "0";
             navbar.style.transition = "0.5s";
+            // coffee.style.display = "none";
         } else {
             navbar.style.top = "-200px";
             navbar.style.transition = "0.5s";
+            // coffee.style.display = "block"
         }
         prevScrollpos = currentScrollPos;
 
