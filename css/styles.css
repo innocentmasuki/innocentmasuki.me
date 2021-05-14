@@ -106,7 +106,7 @@ body {
 [masuki-box] {
     width: 100%;
     margin: 10px 0 10px 0;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 1% 5px 1%;
     background: transparent;
     border-radius: 20px;
     border: 2px solid #ffa60057;
@@ -124,7 +124,7 @@ body {
 }
 
 [masuki-box]::placeholder {
-    text-indent: 20px;
+    text-indent: 1%;
 }
 
 .service_cards {
