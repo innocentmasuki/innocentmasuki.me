@@ -12,7 +12,7 @@ main {
 }
 
 body {
-    background-image: url(../assets/images/masukibg.png);
+    background-image: url(../assets/images/backbg.jpg);
     background-size: cover;
     background-repeat: repeat-y;
     overflow-x: hidden;
