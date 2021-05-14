@@ -19,32 +19,6 @@ body {
     /* overflow-x: hidden; */
 }
 
-@media (max-width:576px) {
-    .masuki_section {
-        font-size: 15vw;
-    }
-    .pagechild {
-        height: auto;
-        width: 100%;
-    }
-    /* come back here to fix */
-    .masuki_cards {
-        margin: 20px;
-    }
-    .headerSm {
-        font-size: 5vw;
-    }
-    .headerBg {
-        font-size: 12vw;
-    }
-    .navbar-brand {
-        text-align: center;
-    }
-    #contact_card {
-        margin: 20px;
-    }
-}
-
 .heroimage {
     height: 100vh;
     width: 100%;
@@ -103,6 +77,32 @@ body {
     transition: 0.7s;
 }
 
+@media (max-width:576px) {
+    .masuki_section {
+        font-size: 15vw;
+    }
+    .pagechild {
+        height: auto;
+        width: 100%;
+    }
+    /* come back here to fix */
+    .masuki_cards {
+        margin: 20px;
+    }
+    .headerSm {
+        font-size: 5vw;
+    }
+    .headerBg {
+        font-size: 12vw;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+    #contact_card {
+        margin: 20px;
+    }
+}
+
 [masuki-box] {
     width: 100%;
     margin: 10px 0 10px 0;
@@ -110,10 +110,6 @@ body {
     background: transparent;
     border-radius: 20px;
     border: 2px solid #ffa60057;
-}
-
-[masuki-box]::placeholder {
-    text-indent: 1%;
 }
 
 #contact_card {
@@ -133,14 +129,14 @@ body {
     transform: perspective(1000px);
 }
 
-.masuki_cards:hover {
-    transition: 0.3s;
-    box-shadow: 0px 0px 30px #ffa60071;
-}
-
 .card-body {
     transform: translateZ(50px);
     -webkit-transform: translateZ(50px);
+}
+
+.masuki_cards:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 30px #ffa60071;
 }
 
 footer {
