@@ -66,14 +66,14 @@ body {
 
 [contact_social_links]>a {
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
     font-size: 25px;
     transition: 0.7s;
-    color: grey;
+    color: black;
 }
 
 [contact_social_links]>a:hover {
-    color: black;
+    color: grey;
     transition: 0.7s;
 }
 
