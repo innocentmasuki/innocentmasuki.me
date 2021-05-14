@@ -166,10 +166,35 @@
             <div class="pagechild" id="contact">
                 <div class="container">
                     <div class="row" style="padding: 12% 0 12% 0;">
-                        <div class="col-sm">
+                        <div class="col-sm-4">
                             <span class="headerSm">Get in touch</span>
                             <br>
                             <span class="masukiText headerBg">With Me</span>
+                            <br>
+                            <div contact_social_links>
+                                <a href="tel:+255766073577"><i class="fa fa-phone"></i></a>
+                                <a href="https://github.com/Diggerati" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://twitter.com/MasukiInnocent" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/innocent-masuki-988013173/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/_digerati/" target="_blank"><i class="fa fa-instagram"></i></a>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card bg-glass" id="contact_card" style="border-radius: 20px;">
+                                <div class="card-body">
+                                    <form action="mailto:imasuki@innocentmasuki.me" method="post">
+                                        <input masuki-box type="text" name="guest_name" id="guest-name" placeholder="Full Name">
+                                        <input masuki-box type="email" name="guest_mail" id="guest-mail" placeholder="yourname@example.com">
+                                        <textarea name="guest_message" id="guest-message" masuki-box rows="5" placeholder="your message"></textarea>
+                                        <button type="submit" class="btn btn-masuki">Send <i class="fa fa-send"></i></button>
+                                    </form>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,7 +204,8 @@
         </div>
 
 
-
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="innocent" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FFDD00" data-position="left" data-x_margin="30"
+            data-y_margin="30"></script>
 
     </main>
     <!-- <footer>
@@ -193,7 +219,12 @@
     <script type="text/javascript">
         VanillaTilt.init(document.querySelectorAll(".service_cards"), {
             max: 25,
-            speed: 400
+            speed: 500
+        });
+
+        VanillaTilt.init(document.getElementById("contact_card"), {
+            max: 9,
+            speed: 500
         });
     </script>
 
