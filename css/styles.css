@@ -86,7 +86,7 @@ body {
     border: 2px solid #ffa60057;
 }
 
-@media (max-width:576px) {
+@media (max-width:768px) {
     .masuki_section {
         font-size: 15vw;
     }
