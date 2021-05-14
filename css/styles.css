@@ -93,7 +93,7 @@ footer {
 .service_cards {
     transition: 0.3s;
     transform-style: preserve-3d;
-    transform: perspective(5000px);
+    transform: perspective(2000px);
 }
 
 .card-body {
