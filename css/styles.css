@@ -12,22 +12,21 @@ main {
 }
 
 body {
+    width: 100%;
     background-image: url(../assets/images/backbg.jpg);
     background-size: cover;
     background-repeat: repeat-y;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .heroimage {
     height: 100vh;
     width: 100%;
-    /* background-image: url("../assets/images/background.png");
-    background-size: cover; */
 }
 
 .masukiText {
     /* background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
-    background-image: linear-gradient( 109.6deg, rgba(255, 115, 68, 1) 11.2%, rgba(244, 255, 32, 1) 100.6%);
+    background-image: linear-gradient( 109.6deg, rgba(244, 255, 32, 1)11.2%, rgba(255, 115, 68, 1) 100.6%);
     background-clip: text;
     -webkit-background-clip: text;
     background-size: cover;
@@ -87,6 +86,9 @@ footer {
     }
     .headerBg {
         font-size: 12vw;
+    }
+    .navbar-brand {
+        text-align: center;
     }
 }
 

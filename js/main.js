@@ -4,7 +4,7 @@ window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
     var currentScrollPos = window.pageYOffset;
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
         if (prevScrollpos > currentScrollPos) {
             navbar.style.top = "0";
             navbar.style.transition = "0.5s";
