@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['send_mail'])){
-    $to = "imasuki@innocentmasuki.me"; // this is your Email address
+    $to = "innocentmasuki99@gmail.com"; // this is your Email address
     if(isset($_POST['guest_mail'])){
         $from = $_POST['guest_mail'];
     }
