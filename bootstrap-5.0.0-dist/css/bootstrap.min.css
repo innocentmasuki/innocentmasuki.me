@@ -7983,6 +7983,12 @@ fieldset:disabled .btn {
     -moz-backdrop-filter: blur(13px)
 }
 
+@-moz-document url-prefix() {
+    .bg-glass {
+        background-color: white;
+    }
+}
+
 .bg-warning {
     background-color: #ffc107!important
 }
