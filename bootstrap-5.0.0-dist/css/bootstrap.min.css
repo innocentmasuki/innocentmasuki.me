@@ -3198,9 +3198,10 @@ fieldset:disabled .btn {
 
 .btn-masuki {
     color: white;
+    font-size: 13px;
     background-color: #ffa500;
     border-radius: 50px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 35px 10px 35px;
     transition: 0.7s;
 }
 
@@ -4275,8 +4276,8 @@ fieldset:disabled .btn {
 
 .navbar-nav.navbar-center {
     position: absolute;
-    left: 80%;
-    transform: translatex(-80%);
+    left: 70%;
+    transform: translatex(-70%);
 }
 
 .navbar-nav.navbar-right {
