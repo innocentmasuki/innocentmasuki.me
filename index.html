@@ -104,7 +104,7 @@
             <div class="pagechild" id="services">
                 <div class="container" style="height: 100%; width: 100%; z-index: 3;">
                     <div class="row" style="padding: 12% 0 12% 0;">
-                        <div class=" col-lg-4">
+                        <div class=" col-lg-4" style="padding-left: 30px;">
                             <span class="headerSm">My Awesome</span>
                             <br>
                             <span class="masukiText headerBg">Services</span>
@@ -167,17 +167,19 @@
             <div class="pagechild" id="contact">
                 <div class="container">
                     <div class="row" style="padding: 12% 0 12% 0;">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4" style="padding-left: 30px;">
                             <span class="headerSm">Get in touch</span>
                             <br>
                             <span class="masukiText headerBg">With Me</span>
                             <br>
-                            <div contact_social_links>
+                            <div contact_social_links style="margin-bottom: 20px;">
                                 <a href="tel:+255766073577"><i class="fa fa-phone"></i></a>
                                 <a href="https://github.com/Diggerati" target="_blank"><i class="fa fa-github"></i></a>
                                 <a href="https://twitter.com/MasukiInnocent" target="_blank"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.linkedin.com/in/innocent-masuki-988013173/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://www.instagram.com/_digerati/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://api.whatsapp.com/message/3WVNYDNBD5BQE1"><i class="fa fa-whatsapp"></i></a>
+
 
                             </div>
 
@@ -187,11 +189,12 @@
                         <div class="col-lg-8">
                             <div class="card bg-glass" id="contact_card" style="border-radius: 20px;">
                                 <div class="card-body">
-                                    <form action="mailto:imasuki@innocentmasuki.me" method="post">
+                                    <form action="./mail.php" method="post">
                                         <input masuki-box type="text" name="guest_name" id="guest-name" placeholder="Full Name">
                                         <input masuki-box type="email" name="guest_mail" id="guest-mail" placeholder="yourname@example.com">
+                                        <input masuki-box type="text" name="message_sub" id="subject" placeholder="Subject (optional)">
                                         <textarea name="guest_message" id="guest-message" masuki-box rows="5" placeholder="your message"></textarea>
-                                        <button type="submit" class="btn btn-masuki">Send <i class="fa fa-send"></i></button>
+                                        <button type="submit" name="send_mail" class="btn btn-masuki">Send <i class="fa fa-send"></i></button>
                                     </form>
 
                                 </div>
