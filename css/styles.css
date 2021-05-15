@@ -86,35 +86,6 @@ body {
     border: 2px solid #ffa60057;
 }
 
-@media (max-width:768px) {
-    .masuki_section {
-        font-size: 15vw;
-    }
-    .pagechild {
-        height: auto;
-        width: 100%;
-    }
-    /* come back here to fix */
-    .masuki_cards {
-        margin: 20px;
-    }
-    .headerSm {
-        font-size: 5vw;
-    }
-    .headerBg {
-        font-size: 12vw;
-    }
-    .navbar-brand {
-        text-align: center;
-    }
-    #contact_card {
-        margin: 20px;
-    }
-    [masuki-box] {
-        border: 2px solid #ffa600;
-    }
-}
-
 #contact_card {
     transition: 0.3s;
     transform-style: preserve-3d;
@@ -146,4 +117,66 @@ footer {
     padding-top: 5%;
     height: auto;
     width: 100%;
+}
+
+@media (max-width:768px) {
+    .masuki_section {
+        text-align: center;
+        font-size: 10vw;
+    }
+    .masuki_right {
+        display: none;
+    }
+    .pagechild {
+        height: auto;
+        width: 100%;
+    }
+    /* come back here to fix */
+    .masuki_cards {
+        margin: 20px;
+    }
+    .headerSm {
+        font-size: 5vw;
+    }
+    .headerBg {
+        font-size: 12vw;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+    #contact_card {
+        margin: 20px;
+    }
+    [masuki-box] {
+        border: 2px solid #ffa600;
+    }
+}
+
+@media (max-width:425px) {
+    .masuki_section {
+        font-size: 15vw;
+    }
+    .pagechild {
+        height: auto;
+        width: 100%;
+    }
+    /* come back here to fix */
+    .masuki_cards {
+        margin: 20px;
+    }
+    .headerSm {
+        font-size: 5vw;
+    }
+    .headerBg {
+        font-size: 12vw;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+    #contact_card {
+        margin: 20px;
+    }
+    [masuki-box] {
+        border: 2px solid #ffa600;
+    }
 }
