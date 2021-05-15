@@ -10,11 +10,7 @@ if(isset($_POST['send_mail'])){
     if(isset($_POST['guest_message'])){
         $text = $_POST['guest_message'];
     }
-  
     $subject = $_POST['message_sub'];
-
-    
-    
     $subject = $subject . " ";
 
     
