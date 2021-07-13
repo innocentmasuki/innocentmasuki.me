@@ -8,7 +8,6 @@ html {
 
 main {
     height: auto;
-    width: 100%;
 }
 
 body {
@@ -21,7 +20,6 @@ body {
 
 .heroimage {
     height: 100vh;
-    width: 100%;
 }
 
 .masukiText {
@@ -34,12 +32,11 @@ body {
 }
 
 .hero {
-    position: absolute;
     margin-top: 190px;
 }
 
 .masuki_section {
-    font-size: 6vw;
+    font-size: 10vw;
 }
 
 [hireme] {
