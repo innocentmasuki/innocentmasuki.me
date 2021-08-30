@@ -1,5 +1,9 @@
 import { remoteForm } from '@github/remote-form'
 
+
+
+
+
 var navbar = document.getElementById("navbar");
 // var coffee = document.getElementById("coffee");
 var prevScrollpos = window.pageYOffset;
